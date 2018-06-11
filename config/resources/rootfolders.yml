@@ -1,0 +1,234 @@
+rootFolders:
+  askTimeout : 
+  corpRoot:
+    statusCd: "200"
+    statusDesc: "OK"
+    userExpDesc: ""
+    entityList:
+      -
+        entId: 1001
+        entName: "Account statements"
+        entType: FOLDER
+        urls:
+          -
+            url: /corpDocument/accountStat
+            urlDesc: "Account statements"
+          
+      -
+        entId: 1002
+        entName: "Tax statements"
+        entType: FOLDER
+        urls:
+          -
+            url: /corpDocument/taxStat
+            urlDesc: "Tax statements"
+            
+      -
+        entId: 1003
+        entName: "Financial confirmations"
+        entType: FOLDER
+        urls:
+          -
+            url: /corpDocument/financialConfirm
+            urlDesc: "Financial confirmations"
+      -
+        entId: 1005
+        entName: "Shareholder documents"
+        entType: FOLDER
+        urls:
+          -
+            url: /corpDocument/shareHolderDoc
+            urlDesc: "Shareholder documents"
+      
+      -
+        entId: 1004
+        entName: "Administrative documents"
+        entType: FOLDER
+        urls:
+          -
+            url: /corpDocument/adminDoc
+            urlDesc: "Administrative documents"
+      
+  landing:
+    statusCd: "200"
+    statusDesc: "OK"
+    userExpDesc: ""
+    entityList:
+      -
+        entId: 100
+        entName: "Statements & documents"
+        entType: FOLDER
+        urls:
+          -
+            url: /corpDocument
+            urlDesc: "Statements & documents"
+      -
+        entId: 300
+        entName: "Electronic signatures"
+        entType: FOLDER
+        urls:
+          -
+            url: /eSign
+            urlDesc: "Electronic signatures"
+      -
+        entId: 400
+        entName: "Uploaded files"
+        entType: FOLDER
+        urls:
+          -
+            url: /box
+            urlDesc: "Uploaded files"
+  stmtAndDocCtgry:
+    stmt:
+      -
+        docTypDesc: "CONSOLIDATED STATEMENTS"
+      -
+        docTypDesc: "CONSOLIDATED STATEMENTS ANNUAL"
+      -
+        docTypDesc: "CONSOLIDATED STATEMENTS MONTHEND"
+      -
+        docTypDesc: "ANNUAL INSURANCE REPORT"
+    tax:
+      -
+        docTypDesc: "2009 OD/PA TAX STATEMENTS"
+      -
+        docTypDesc: "2009 TAX STATEMENTS"
+      -
+        docTypDesc: "2010 OD/PA TAX STATEMENTS"
+      -
+        docTypDesc: "2010 TAX STATEMENTS"
+      -
+        docTypDesc: "2011 OD/PA TAX STATEMENTS"
+      -
+        docTypDesc: "2011 TAX STATEMENTS"
+      -
+        docTypDesc: "2012 OD/PA TAX STATEMENTS"
+      -
+        docTypDesc: "2012 TAX STATEMENTS"
+      -
+        docTypDesc: "2013 OD/PA TAX STATEMENTS"
+      -
+        docTypDesc: "2013 TAX STATEMENTS"
+      -
+        docTypDesc: "2014 OD/PA TAX STATEMENTS"
+      -
+        docTypDesc: "2014 TAX STATEMENTS"
+      -
+        docTypDesc: "2015 OD/PA TAX STATEMENTS"
+      -
+        docTypDesc: "2015 TAX STATEMENTS"
+    confirms:
+      -
+        docTypDesc: "FINANCIAL CONFIRMS"
+    admin:
+      -
+        docTypDesc: "CHANGE OF NAME"
+      -
+        docTypDesc: "BENEFICIARY"
+      -
+        docTypDesc: "CONFIRMATION - ACCOUNT LEVEL"
+      -
+        docTypDesc: "SUITABILITY DATA"
+      -
+        docTypDesc: "CONFIRMATION - CLIENT LEVEL"
+      -
+        docTypDesc: "DISCLOSURE - CLIENT"
+      -
+        docTypDesc: "PPA INITIAL DISCLOSURE"
+      -
+        docTypDesc: "REFUNDS RE-IMBURSEMENT OR REPARATION"
+      -
+        docTypDesc: "RETIREMENT ACCT HOLDERS NOTICE"
+      -
+        docTypDesc: "LETTER FROM HOME OFFICE"
+      -
+        docTypDesc: "OPTIONS SUITABILITY DATA"
+      -
+        docTypDesc: "EMPLOYER PLANS NOTICE"
+      -
+        docTypDesc: "PPA DISCLOSURE"
+      -
+        docTypDesc: "SPS AUTO REBALANCE"
+  stmtAndDocPropName:
+    stmtPropList:
+      -
+        docPropNm: account_id
+      -
+        docPropNm: effective_date
+      -
+        docPropNm: annual_indicator
+    taxPropList:
+      -
+        docPropNm : tax_year
+        values:
+          -
+            docPropVal: 2009
+          -
+            docPropVal: 2010
+          -
+            docPropVal: 2011
+          -
+            docPropVal: 2012
+          -
+            docPropVal: 2013
+          -
+            docPropVal: 2014
+          -
+            docPropVal: 2015
+          -
+            docPropVal: 2016
+    finConfirmPropList:
+      -
+        docPropNm: account_id
+      -
+        docPropNm: effective_date
+    adminDocPropList:
+      -
+        docPropNm: account_id
+      -
+        docPropNm: effective_date
+  stmtAndDocRespMetaDataRespPropNm:
+    stmt:
+      -
+        respPropNm: effective_date
+      -
+        respPropNm: annual_indicator
+      -
+        respPropNm: document_title
+      -
+        respPropNm: address1
+      -
+        respPropNm: address2
+      -
+        respPropNm: address3
+      -
+        respPropNm: address4
+    tax:
+      -
+        respPropNm: effective_date
+      -
+        respPropNm: tax_year
+      -
+        respPropNm: document_title
+      -
+        respPropNm: address1
+      -
+        respPropNm: address2
+      -
+        respPropNm: address3
+      -
+        respPropNm: address4        
+    confirms:
+      -
+        respPropNm: account_id
+      -
+        respPropNm: effective_date
+      -
+        respPropNm: confirm_type
+    admin:
+      -
+        respPropNm: account_id
+      -
+        respPropNm: effective_date
+      -
+        respPropNm: confirm_type

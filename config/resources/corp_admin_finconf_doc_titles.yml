@@ -1,0 +1,50 @@
+docTitle:
+  "KAWI" : Payee added or modified
+  "KAPI" : Payee added or modified
+  "0500" : Certificate Transaction
+  "0700" : Mutual Fund Transaction
+  "600A" : Insurance Transaction
+  "0600" : Annuity / Insurance Transaction
+  "610A" : Insurance Transaction
+  "0610" : Annuity /Insurance Transaction
+  "0202" : Authorize Bank Account
+  "0910" : Authorization - On Demand
+  "0200" : Transfer Money - Recurring
+  "0900" : Transfer Money - Recurring
+  "0920" : Transfer Money - Recurring
+  "BRK1" : Brokerage Trade Transaction
+  "KTRD" : Brokerage Trade Transaction
+  "KOOC" : Brokerage Trade Transaction
+  "KACO" : Transfer Money - Recurring
+  "KODA" : Transfer Money - One-Time
+  "KACI" : Transfer Money - Recurring
+  "HDST" : Brokerage Trade Transaction
+  "KACH" : Third Party Disbursement
+  "0003" : Name Change  
+  "0950" : Change of Beneficiary
+  "0620" : NAIC Disclosure
+  "1020" : My Accounts Registration
+  "KSTE" : Smart Trade Equity
+  "0570" : Required Minimum Distribution
+  "KRMD" : Required Minimum Distribution
+  "0400" : Financial Advisor Change
+  "0970" : Investment Suitability
+  "0955" : Change of Beneficiary
+  "KBRK" : 529 DIRECT AT FUND PLAN DISCLOSURE LETTER
+  "KFPS" : Financial Planning Service Confirmation
+  "KFPF" : Financial Planning Fee Change
+  "KDPP" : PPA Initial Disclosure
+  "KDBI" : Important disclosures for retirement account holders
+  "KART" : FINANCIAL PLANNING REFUND
+  "KPIN" : EASY ACCESS LINE PIN – CLIENT
+  "KPUW" : DOL POSITION UNWRAP TO BRKG
+  "KSUI" : OPTIONS SUITABILITY DATA
+  "1010" : EASY ACCESS LINE PIN - LOCK UNLOCK
+  "KEDE" : CLIENT SECURESITE REGISTRATION REQUIRED
+  "KDPI" : Important disclosures for retirement account holders
+  "KSAR" : SPS Advantage Rebalance Add Target
+  "KSUE" : SPS Advantage Rebalance Remove Target
+  "KSRF" : SPS Advantage Rebalance Feature Removed
+  "KSRI" : SPS Advantage Rebalance Inactivate Target
+  "KSRO" : SPS Advantage Reorg Share Class Target
+  "KFNC" : Entity Relationship Confirm 12345465
